@@ -121,7 +121,7 @@ General styles
 .page-title {
   text-align: center;
   background-color: #c96;
-  font-size: 4em;
+  font-size: 2em;
   color: #fff;
   letter-spacing: -3px;
   font-weight: 500;
@@ -204,6 +204,9 @@ General styles
 .faq {
   background:transparent;
   text-decoration: none;
+}
+.a11y:visited, .coc:visited, .contact:visited, .faq:visited {
+color: white;
 }
 
 .info-heading::after {
