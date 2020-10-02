@@ -175,8 +175,6 @@ General styles
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-decoration: none;
-  color: white;
 }
 
 .info li {
@@ -187,7 +185,7 @@ General styles
 
 .a11y {
   background:transparent;
-  color: white;
+  text-decoration: none;
 }
 
 .coc {
@@ -201,8 +199,17 @@ General styles
 .faq {
   background:transparent;
 }
+a {
+  color: white;
+  text-decoration: none;
+  }
+a:active {
+  color: white;
+  text-decoration: none;
+  }
 a:visited {
 color: white;
+text-decoration: none;
 }
 
 .info-heading::after {
