@@ -186,26 +186,22 @@ General styles
 }
 
 .a11y {
-  text-decoration: none;
   background:transparent;
   color: white;
 }
 
 .coc {
   background:transparent;
-  text-decoration: none;
 }
 
 .contact {
   background:transparent;
-  text-decoration: none;
 }
 
 .faq {
   background:transparent;
-  text-decoration: none;
 }
-.a11y:visited, .coc:visited, .contact:visited, .faq:visited {
+a:visited {
 color: white;
 }
 
